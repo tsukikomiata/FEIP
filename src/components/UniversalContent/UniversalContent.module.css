@@ -1,0 +1,8 @@
+.universalContent {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 0 0 28vw;
+    padding: 0;
+}

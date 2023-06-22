@@ -1,0 +1,33 @@
+.basket {
+    padding: 3vh 4vw;
+    background: #EDDCCD;
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.basket__title {
+    margin: 0 0 5vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.basket__footer {
+    margin: 12vh 0 2vh;
+    font-size: 18px;
+}
+
+.basket__footer_button {
+    width: 10vw;
+    border-radius: 10px;
+    background-color: rgba(236, 234, 234, 0.5);
+    cursor: pointer;
+}
+
+.basket__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

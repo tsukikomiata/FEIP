@@ -1,0 +1,50 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../../images/sidebarBackground.jpg");
+    width: 28vw;
+    height: 87vh;
+    position: fixed;
+    align-items: center;
+    padding: 8vh 0 5vh;
+}
+
+.login__logo {
+    fill: black;
+    width: 5vw;
+    align-self: center;
+    border-radius: 11px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__form > input {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.login__form > input:focus {
+    outline: none;
+}
+
+.login__form_button {
+    width: 10vw;
+    border-radius: 10px;
+    margin-top: 2vh;
+    background-color: rgba(236, 234, 234, 0.1);
+}
+
+.login__link {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}

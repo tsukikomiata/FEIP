@@ -1,0 +1,9 @@
+.achievements {
+    padding-left: 2vw;
+    margin-top: 6vh;
+}
+
+.achievements__title {
+    font-size: 20px;
+    font-weight: 500;
+}

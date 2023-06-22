@@ -1,0 +1,20 @@
+.productCard__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    width: 35vw;
+    padding: 1.5vh 2vw 3vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    border-radius: 20px;
+    background: #EAE2D8;
+    background-blend-mode: overlay;
+    box-shadow: -1px 1px 8px black;
+}
+
+.productCard__content > img {
+    border-radius: 35px;
+    width: 13vw;
+    margin-top: 1vh;
+    margin-right: 2vh;
+}

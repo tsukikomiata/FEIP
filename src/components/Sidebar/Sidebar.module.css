@@ -1,0 +1,47 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url("../../images/sidebarBackground.jpg");
+    width: 28vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar__logo {
+    fill: black;
+    width: 5vw;
+    align-self: center;
+    border-radius: 11px;
+}
+
+.sidebar__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 7vh;
+}
+
+.sidebar__footer {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.sidebar__footer_places, .sidebar__footer_time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar__footer_places_text, .sidebar__footer_time_text {
+    color: black;
+    margin: 0;
+    font-size: 16px;
+}
+
+.sidebar__footer_places_title, .sidebar__footer_time_title {
+    color: black;
+    margin: 0 0 1vh;
+    font-size: 18px;
+}

@@ -1,0 +1,22 @@
+.sidebarItem, .sidebarItemActive {
+    align-self: center;
+}
+
+.sidebarItem > .NavLink, .sidebarItemActive > .NavLink {
+    text-decoration: none;
+}
+
+.sidebarItem__text {
+    margin: 0;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.sidebarItemActive__text {
+    margin: 0.5vh 0;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    border-bottom: solid 2px black;
+}

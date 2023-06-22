@@ -1,0 +1,12 @@
+.menu {
+    padding: 3vh 4vw;
+    background: #EDDCCD;
+    min-height: 94vh;
+}
+
+.menu__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

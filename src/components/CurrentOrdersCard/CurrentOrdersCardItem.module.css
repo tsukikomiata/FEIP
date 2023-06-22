@@ -1,0 +1,11 @@
+.orderCardItem {
+    display: flex;
+}
+
+.orderCardItem > p {
+    margin: 0;
+}
+
+.orderCardItem__title {
+    width: 25vw;
+}

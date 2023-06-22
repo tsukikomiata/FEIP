@@ -1,0 +1,27 @@
+.productDetails {
+    padding-top: 4vh;
+}
+
+.productCard__button {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 13px;
+    margin: 1vh 1vh;
+    background-color: rgba(236, 234, 234, 0.1);
+}
+
+.buttons {
+    /*padding: 0 -1vh 0 -1vh;*/
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 12vw;
+}
+
+.menu__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

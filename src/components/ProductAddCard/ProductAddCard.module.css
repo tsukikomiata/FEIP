@@ -1,0 +1,64 @@
+.productAdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30vw;
+    padding: 3vh 3vw;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    border-radius: 20px;
+    background: #EAE2D8;
+    background-blend-mode: overlay;
+    box-shadow: -1px 1px 8px black;
+}
+
+.file > img {
+    border-radius: 20px;
+    margin-bottom: 1vh;
+    width: 15vw;
+    margin-right: 1vw;
+}
+
+.file > input {
+    width: 15vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.productAdd__content {
+    padding: 1.5vh 0 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productAdd__content_button {
+    width: 15vw;
+    height: 4vh;
+    border-radius: 13px;
+    margin-top: 1vh;
+    background-color: rgba(236, 234, 234, 0.1);
+}
+
+.productAdd__form {
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productAdd__form > input {
+    width: 16vw;
+    height: 2.5vh;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.menu__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

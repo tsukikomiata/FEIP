@@ -1,0 +1,17 @@
+.currentOrders {
+    margin: 0 28vw;
+    padding: 2vh 5vw;
+}
+
+.currentOrders > p {
+    margin: 0 0 5vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.currentOrders__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

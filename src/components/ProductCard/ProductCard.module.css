@@ -1,0 +1,32 @@
+.productCard {
+    display: flex;
+    width: 35vw;
+    padding: 3vh 2vw;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    background: #EAE2D8;
+    background-blend-mode: overlay;
+    box-shadow: -1px 1px 8px black;
+}
+
+.productCard > img {
+    border-radius: 35px;
+    width: 9vw;
+}
+
+.productCard__content {
+    padding: 2vh 2vw 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productCard__content_info > p {
+    margin: 0 0 1vh;
+}
+
+.productCard__content_button {
+    width: 10vw;
+    border-radius: 10px;
+    background-color: rgba(236, 234, 234, 0.25);
+}

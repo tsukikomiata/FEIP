@@ -1,0 +1,14 @@
+.productDetailsPage__content {
+    margin-left: 30vw;
+}
+
+.productDetailsPage{
+    background: #EDDCCD;
+    min-height: 100vh;
+    background-blend-mode: overlay;
+}
+
+.productDetailsPage > img {
+    border-radius: 35px;
+    width: 9vw;
+}

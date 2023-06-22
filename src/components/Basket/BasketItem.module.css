@@ -1,0 +1,19 @@
+.basketItem {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 0 2vh;
+}
+
+.basketItem__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basketItem__button {
+    width: 6vw;
+    border-radius: 10px;
+    background-color: rgba(236, 234, 234, 0.25);
+    align-self: end;
+    cursor: pointer;
+}

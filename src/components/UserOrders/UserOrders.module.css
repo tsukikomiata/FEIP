@@ -1,0 +1,12 @@
+.userOrders {
+    padding: 3vh 4vw;
+    background: #EDDCCD;
+    min-height: 94vh;
+}
+
+.userOrders__catLogo {
+    width: 5vw;
+    position: fixed;
+    right: 2vw;
+    bottom: 3vh;
+}

@@ -1,0 +1,50 @@
+.currentOrderCard {
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderCard {
+    border-radius: 20px;
+    width: 25vw;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2vh;
+    background: #EAE2D8;
+    background-blend-mode: overlay;
+    box-shadow: -1px 1px 8px black;
+}
+
+.orderCard__user {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 3vh;
+}
+
+.orderCard__note {
+    font-size: 12px;
+    margin: 3vh 0 0;
+}
+
+.orderCard__total {
+    font-size: 16px;
+    margin: 1vh 0 0;
+}
+
+.currentOrderCard__buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+    padding-right: 5vw;
+}
+
+.currentOrderCard__buttons > button {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 10px;
+    margin-top: 2vh;
+    background-color: rgba(236, 234, 234, 0.25);
+    cursor: pointer;
+    margin-left: 1vw;
+}
